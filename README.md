@@ -26,10 +26,9 @@ A simple restaurant booking desktop app built with **Python (Tkinter)** and **Mo
 ## ⚙️ Setup
 
 ```bash
-git clone https://github.com/your-username/dine-reserve.git
+git clone https://github.com/bhooviverma/Restaurant-Seat-Allocation-Python-Project.git
 cd dine-reserve
 pip install pymongo
-```
 
 Start MongoDB:
 
