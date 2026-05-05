@@ -4,7 +4,11 @@ A simple restaurant booking desktop app built with **Python (Tkinter)** and **Mo
 
 ---
 
-## 🚀 Features
+## About this Project
+
+Dine & Reserve is a desktop-based restaurant booking system built using Python (Tkinter) and MongoDB. It allows users to browse restaurants by city, select tables, and make reservations with real-time seat availability. The app features an intuitive UI, automated cost calculation, and booking management, making the reservation process simple and efficient.
+
+## Features
 
 * Select city & restaurant
 * View seat availability
@@ -16,46 +20,14 @@ A simple restaurant booking desktop app built with **Python (Tkinter)** and **Mo
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python (Tkinter)
 * MongoDB (PyMongo)
 
 ---
 
-## ⚙️ Setup
-
-```bash
-git clone https://github.com/bhooviverma/Restaurant-Seat-Allocation-Python-Project.git
-cd dine-reserve
-pip install pymongo
-
-Start MongoDB:
-
-```bash
-mongod
-```
-
-Add sample data:
-
-```json
-{
-  "name": "Spice Garden",
-  "city": "Delhi",
-  "available_seats": 20,
-  "price_per_person": 500
-}
-```
-
-Run app:
-
-```bash
-python main.py
-```
-
----
-
-## 📂 Collections
+## Collections
 
 * **data** → restaurants
 * **bookings** → reservations
